@@ -1,0 +1,135 @@
+groups:
+  swatch:
+    name: "Swatch Group"
+    logo: "swatchgroup.png"
+    description: "Swatch group encompasses brands from Omega, Longines and Swatch."
+  richemont:
+    name: "Richemont"
+    logo: "richemont.png"
+    description: "Richemont group encompasses brands from Cartier, IWC and Montblanc."
+  fossil:
+    name: "Fossil Group"
+    logo: "fossil.png"
+    description: "Fossil group encompasses brands from Fossil, Skagen and Michael Kors."
+  citizen:
+    name: "Citizen Group"
+    logo: "citizen.png"
+    description: "Citizen group encompasses brands from Citizen, Bulova and Frederique Constant."
+  timex:
+    name: "Timex Group"
+    logo: "timex.png"
+    description: "Timex group encompasses brands from Timex, Guess and Nautica."
+  rolex:
+    name: "Rolex"
+    logo: "rolex.png"
+    description: "Rolex group consists of Rolex and Tudor."
+  seiko-epson:
+    name: "Seiko Epson"
+    logo: "seikoepson.png"
+    description: "Seiko Epson group consists of Seiko and Grand Seiko."
+brands:
+  - name: "Tissot"
+    group: "swatch"
+    description:
+    logo: "tissot.png"
+    volume: 5000000
+    prices:
+      start: 250
+      coreStart: 650
+      coreEnd: 1895
+      end: 3175
+    examples:
+      - name: "Gentleman"
+        price: 825
+        image: "tissot_gentleman.png"
+        url: "https://www.tissotwatches.com/en-us/t1274071105100.html"
+  - name: "Hamilton"
+    group: "swatch"
+    description:
+    logo: "hamilton.png"
+    volume: 2000000
+    prices:
+        start: 425
+        coreStart: 695
+        coreEnd: 2295
+        end: 11000
+    examples:
+        - name: "Khaki Field"
+          price: 695
+          image: "hamilton_khaki_field.png"
+          url: "https://www.hamiltonwatch.com/en-us/h70455733-khaki-field-auto.html"
+  - name: "Longines"
+    group: "swatch"
+    description:
+    logo: "longines.png"
+    volume: 3000000
+    prices:
+      start: 750
+      coreStart: 1775
+      coreEnd: 5200
+      end: 18625
+    examples:
+      - name: "Spirit"
+        price: 2250
+        image: "longines_hydroconquest.png"
+        url: "https://www.longines.com/en-us/p/watch-longines-spirit-l3-810-4-53-6"
+  - name: "Seiko"
+    group: "seiko-epson"
+    description:
+    logo: "seiko.png"
+    volume: 10000000
+    prices:
+      start: 80
+      coreStart: 200
+      coreEnd: 1200
+      end: 2000
+    examples:
+      - name: "Presage"
+        price: 425
+        image: "seiko_presage.png"
+        url: "https://www.seikowatches.com/us-en/products/presage/srpb43"
+  - name: "Swatch"
+    group: "swatch"
+    description:
+    logo: "swatch.png"
+    volume: 10000000
+    prices:
+      start: 50
+      coreStart: 100
+      coreEnd: 260
+      end: 400
+    examples:
+      - name: "Sistem51"
+        price: 150
+        image: "swatch_sistem51.png"
+        url: "https://shop.swatch.com/en_us/watches/originals/sistem51/sistem-soul-sutb404.html"
+  - name: "Grand Seiko"
+    group: "seiko-epson"
+    description:
+    logo: "grand-seiko.png"
+    volume: 100000
+    prices:
+      start: 3000
+      coreStart: 5000
+      coreEnd: 10000
+      end: 20000
+    examples:
+      - name: "SBGA211"
+        price: 5500
+        image: "grandseiko_sbga211.png"
+        url: "https://www.grand-seiko.com/us-en/collections/SBGA211G"
+  - name: "Orient"
+    group: "seiko-epson"
+    description:
+    logo: "orient.png"
+    volume: 2000000
+    prices:
+      start: 100
+      coreStart: 200
+      coreEnd: 500
+      end: 1000
+    examples:
+      - name: "Bambino"
+        price: 300
+        image: "orient_bambino.png"
+        url: "https://www.orientwatchusa.com/collections/bambino/products/ra-ac0004s10a"
